@@ -61,5 +61,5 @@ cout << "My sum  is " << sum << endl;
 //      cout<< "Mean is:   " << mean << endl;
 //      cout << stack.size()
         return 0;
-i
+}
                        
