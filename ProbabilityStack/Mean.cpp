@@ -1,7 +1,5 @@
 #include "Mean.h"
 
-
-
 int main (int, char*argv[]){
         int random, stacksize;
           /* initialize random seed: */
