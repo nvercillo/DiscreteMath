@@ -41,12 +41,8 @@ int main ( int argc, char *argv[] ){
         firstBinCharArr[i] = varVector[i];
     }
     cout << "Number of Variables is:  " << numofVars << endl;
+	cout << "Boolean Expression:  " << in << endl;
     
-    for (int i=0; i< numofVars; i++){
-        cout << firstBinCharArr[i];
-    }
-    cout << in << endl;
-
     for(int j=0; j<pow(2, numofVars); j++){
         int numb = j;
         int binaryArr [numofVars];
